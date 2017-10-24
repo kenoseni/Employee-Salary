@@ -4,7 +4,7 @@
   "description": "This program calculates employee salary based on their staff level",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/kenoseni/Employee-Salary/issues"
   },
-  "homepage": "https://github.com/kenoseni/Employee-Salary#readme"
+  "homepage": "https://github.com/kenoseni/Employee-Salary#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "register": "0.0.0"
+  }
 }
