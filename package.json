@@ -1,0 +1,24 @@
+{
+  "name": "employee-salary",
+  "version": "1.0.0",
+  "description": "This program calculates employee salary based on their staff level",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenoseni/Employee-Salary.git"
+  },
+  "keywords": [
+    "Employee",
+    "Salary",
+    "Level"
+  ],
+  "author": "Olusola Oseni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenoseni/Employee-Salary/issues"
+  },
+  "homepage": "https://github.com/kenoseni/Employee-Salary#readme"
+}
